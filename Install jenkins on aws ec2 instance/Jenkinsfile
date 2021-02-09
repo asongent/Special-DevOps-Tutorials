@@ -34,11 +34,11 @@ you should see something like this: "Starting jenkins (via systemctl):  [  OK  ]
 #Open your prefered browser and enter your Public DN:
  http://<your_server_public_DNS>:8080 
 
-#An "Unlock jenkins" screen will pop up asking you to put an Administrative password. To get the password, do a:
+#An "Unlock jenkins" screen will pop-up asking you to put an Administrative password. To get admin password, do a:
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-#The Jenkins installation script directs you to the Customize Jenkins page:
+#The Jenkins installation script directs you to the customized Jenkins page:
 Click Install "suggested plugins"
 
 #Once the installation is complete, enter Administrator Credentials, click
