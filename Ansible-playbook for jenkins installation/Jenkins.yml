@@ -1,0 +1,45 @@
+---
+-  name: install jenkins
+   hosts: host_name
+   remote_user: user_name
+   become: true
+   tasks:
+      - name: install wget
+        yum:
+           name: wget
+           state: present
+
+      - name: install openjdk
+        yum:
+           name: java-1.8.0
+           state: present
+
+      - name: Add jenkins repo
+        get_url:
+           url: http://pkg.jenkins-ci.org/redhat/jenkins.repo
+           dest: /etc/yum.repos.d/jenkins.repo
+
+      - name: Import a key file from Jenkins-CI to enable installation from the package
+        rpm_key:
+               key: https://pkg.jenkins.io/redhat/jenkins.io.key
+               state: present
+
+      - name: install jenkins
+        yum:
+           name: jenkins
+           state: present
+
+      - name: start jenkins
+        systemd:
+          name: jenkins
+          state: started
+
+      - name: enable jenkins
+        systemd:
+          name: jenkins
+          enabled: true
+          
+      - name: Display jenkins initial Administrator's password
+        shell: cat /var/lib/jenkins/secrets/initialAdminPassword
+        changed_when: false
+        register: result
