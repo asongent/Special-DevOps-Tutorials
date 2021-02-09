@@ -1,7 +1,8 @@
 #                  SPECIAL DEVOPS TUTORIALS
 ---
 This turial is main for every DevOps Engineer (Beginner, Intermediate, Advanced, and expert) .
-In this turial you will gain extral skills. The turial comprises of:
+In this turial you will gain extral skills. Feel free to reach out to me at asongentle@gmail.com if you have any qustion.
+The turial comprises of:
 
 ---
 #### 1). Advanced Terraform for some AWS resource
@@ -12,7 +13,7 @@ In this turial you will gain extral skills. The turial comprises of:
 #### 2). Ansible playbook for Jenkins installation on any linux environment
 Here, it is asumesed that you have the inventory (hosts) setup with you server DNS or IP address. 
 Explore the playbook for jenkins installation, edit it with respect to your own 
-specification, environment requirements and you are good to go. Don't hesitate to conact me at asongentle@gmail.com if you have any qustion.
+specification, environment requirements and you are good to go. 
 
 ###### NB. This playbook will be modified if you want to run it on Ubuntu server. All the "yum" will have to be changed to "apt"
 
