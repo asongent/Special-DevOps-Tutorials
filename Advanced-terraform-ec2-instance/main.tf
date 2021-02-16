@@ -46,6 +46,14 @@ resource "aws_security_group" "test-Instance" {
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+ 
+  }
+  ingress {
+    from_port = 0
+    to_port = 65535
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
 
   ingress {
     from_port = 443
