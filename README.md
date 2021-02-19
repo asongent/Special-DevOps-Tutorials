@@ -42,6 +42,6 @@ This tutorial provides step-by-step to solve the following two key issues:
 2) "Fatal: [target_name]: FAILED! => {"msg": "Incorrect sudo password"}"; when trying to run ansible-playbook
        For step-by-step solutions, see "Common Ansible And Ubuntu Error in permission-denied-publickey" above
 
-                                            Asong Gentle
-                                          DevOps Engineer
+                                              Asong Gentle
+                                           Jr. DevOps Engineer
                                              [Good Luck]
