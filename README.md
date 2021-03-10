@@ -1,8 +1,8 @@
 #                  SPECIAL DEVOPS TUTORIALS
 ---
 This tutorial is for every DevOps Engineer (Beginner, Intermediate, Advanced, and expert) .
-In this turial you will gain extral skills. Feel free to reach out to me at asongentle@gmail.com if you have any qustion.
-The turial comprises of:
+In this tutorial you will gain extra skills. Feel free to reach out to me at asongentle@gmail.com if you have any qustion.
+The tutorial comprises of:
 
 ---
 #### 1). Advanced Terraform for some AWS resource
