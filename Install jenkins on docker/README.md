@@ -48,7 +48,7 @@ You should see something like this
 Jenkins initial setup is required. An admin user has been created and a password generated.
 Please use the following password to proceed to installation:
 
-73c38352b5f747a18f309f83beb53f84
+`231d341f330f4a298317646b9d5f1c04`
 
 This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 
@@ -56,10 +56,12 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 *************************************************************
 *************************************************************
 ```
-
-Here, the Admin password is `73c38352b5f747a18f309f83beb53f84`. Keep in mind that your own password will be different.
-
-This will deplay Administrator password. You will copy and paste to gain initial access to your jenkins server.
+  - Or login to your containeer via `docker exec -it <container's name> bin/bash
+  - While in the your container, type;
+    ```bash
+    cat /var/jenkins_home/secrets/initialAdminPassword
+    ```
+Here, the Admin password is `231d341f330f4a298317646b9d5f1c04`. Keep in mind that your own password will be different.
 
 #### 5), Create admin/root account and then click on "sujected plugins" to install plugins. 
 
