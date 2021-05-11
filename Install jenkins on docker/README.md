@@ -60,6 +60,8 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 *************************************************************
 ```
 
+Here, the Admin password is `73c38352b5f747a18f309f83beb53f84`. Keep in mind that your own password will br different.
+
 or
 
  ```bash
