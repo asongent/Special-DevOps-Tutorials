@@ -56,7 +56,7 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 *************************************************************
 *************************************************************
 ```
-  - Or login to your containeer via `docker exec -it <container's name> bin/bash
+  - Or login to your containeer via `docker exec -it <container's name> bin/bash`
   - While in the your container, type;
     ```bash
     cat /var/jenkins_home/secrets/initialAdminPassword
