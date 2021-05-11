@@ -41,7 +41,27 @@ You should be asked to enter Administrator password. TO get Administrator passwo
 ```bash
  docker logs <container's name>
 ```
-     or
+You should see something like this
+
+```bash
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+`73c38352b5f747a18f309f83beb53f84`
+
+This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+```
+
+or
+
  ```bash
  docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
  ```
