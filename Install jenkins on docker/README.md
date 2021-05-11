@@ -1,13 +1,13 @@
 ## This Tutorial Installation Guide of Jenkins On Docker Container 
 
 
-- 1), Pull jenkins image from docker registry by running the following command
+#### 1), Pull jenkins image from docker registry by running the following command
 
 ```bash
 docker pull jenkins/jenkins:lts
 ```
 
-- 2), After pulling jenkins images, type the following command to verify that the image was successfully pulled
+#### 2), After pulling jenkins images, type the following command to verify that the image was successfully pulled
 ```bash
 docker images
 ```
@@ -18,7 +18,7 @@ docker image ls
 ```  
 
 
-- 3), Create a container with the jenkins image you just pulled. This will create jenkins server for you. Run the following command to create docker container.
+#### 3), Create a container with the jenkins image you just pulled. This will create jenkins server for you. Run the following command to create docker container.
 
 ```bash
 docker run -d --name (YourPreferedName) -p3000:8080 jenkins/jenkins:lts
@@ -33,7 +33,7 @@ Explanation of the above command.
   - `jenkins/jenkins:lts` is the jenkins images we just pulled from docker registry
   - `lts` is the short form of `latest` jenkins images in the docker registry.
 
-- 4), Start your jenkins server on any browser. Type:
+#### 4), Start your jenkins server on any browser. Type:
 `localhost:3000` This will open jenkins server for you. 
 
 You should be asked to enter Administrator password. TO get Administrator password, type
