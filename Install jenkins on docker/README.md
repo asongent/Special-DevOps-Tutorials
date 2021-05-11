@@ -23,7 +23,7 @@ docker image ls
 ```bash
 docker run -d --name (YourPreferedName) -p3000:8080 jenkins/jenkins:lts
 ```
-Explanation of the above command.
+#### Explanation of the above command.
   - `run`, starts a new container for you
   - `-d`, runs the container in detached mode
   - `--name` enables you to specify the name (example, Jenkins-Serever) of the container/jenkins server that you want to create. 
@@ -60,7 +60,7 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 *************************************************************
 ```
 
-Here, the Admin password is `73c38352b5f747a18f309f83beb53f84`. Keep in mind that your own password will br different.
+Here, the Admin password is `73c38352b5f747a18f309f83beb53f84`. Keep in mind that your own password will be different.
 
 or
 
