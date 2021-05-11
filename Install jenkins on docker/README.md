@@ -39,12 +39,11 @@ Explanation of the above command.
 You should be asked to enter Administrator password. TO get Administrator password, type
 
 ```bash
-docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
-```
-or
- 
- ```bash
  docker logs <container's name>
+```
+     or
+ ```bash
+ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
  ```
 This will deplay Administrator password. You will copy and paste to gain initial access to your jenkins server.
 
